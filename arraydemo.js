@@ -1,0 +1,13 @@
+var fruits;
+fruits = ['mango', 'banana', 'apple', 'chiku'];
+console.log(fruits);
+var Animals;
+Animals = ["lion", 'cat', 'snake'];
+console.log(Animals);
+var person;
+person = ["naveen", 'kohli', 'rcb', 263, 49];
+console.log(person);
+var genericarray;
+genericarray = ["lion", 'cat', 'snake', true, 222, 10.78];
+console.log(genericarray);
+console.log("second value is  :" + genericarray[2]);

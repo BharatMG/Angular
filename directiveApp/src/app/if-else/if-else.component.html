@@ -1,0 +1,12 @@
+<p>if-else works!</p>
+<div>
+
+    <div *ngIf="status;then template1;else template2"></div>
+
+</div>
+<ng-template #template1>
+    <h2>Congratulation</h2>
+</ng-template>
+<ng-template #template2>
+    <h2>Better luck next time ......</h2>
+</ng-template>

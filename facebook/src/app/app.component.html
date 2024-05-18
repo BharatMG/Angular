@@ -1,0 +1,15 @@
+<app-login></app-login>
+<div>
+<h2>Two way binding data</h2>
+
+Id::{{id}} <br>
+Name::{{name}} <br>
+Age::{{age}} <br>
+<hr>
+
+Id : <input type="number" [(ngModel)]="id"/> <br/>
+Name: <input type="text" [(ngModel)]="name">
+Age : <input type="number" [(ngModel)]="age">
+
+<input type="button" value="Submit" (click)="changeData()" />
+</div>

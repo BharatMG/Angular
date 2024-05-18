@@ -1,0 +1,21 @@
+<p>clazz works!</p>
+<div class="text-center">
+<div>Clazz form</div>
+<div [ngClass]="myClass">{{marks}}</div>
+</div>
+<hr>
+<div>
+    <table border="2">
+        <tr>
+            <th>EmplyoeeId</th>
+            <th>EmployeeName</th>
+            <th>Salary</th>
+        </tr>
+        <tr *ngFor="let emp of emps">
+        <td>{{emp.empId}}</td>
+        <td>{{emp.name}}</td>
+        <td>{{emp.salary}}</td>
+        </tr>
+        
+    </table>
+</div>
